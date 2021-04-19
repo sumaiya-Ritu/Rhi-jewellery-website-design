@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ঋ-Rhi | আপনার.. এবং আমার</title>
+	<link rel="stylesheet" href="style.css"> 
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+</head>
+<body>
+
+	<div class="header">
+
+	<div class="container">
+		<div class="navbar">
+		<div class="logo">
+			<a href="index.html"><img src="photo/Rhi-logo2.png" width="125px"></a>
+		</div>
+		<nav>
+			<ul id="MenuItems">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><div class="dropdown">
+					  <button class="dropbtn">Sign in / Sign up</button>
+					  	<div class="dropdown-content">
+ 					    <a href="signin.html">Sign in</a>
+					    <a href="signup.html">Sign up</a>
+					
+					  </div>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<a href="cart.html"><img src="photo/cart.png" width="30px" height="30px"></a>
+		<img src="photo/menu.png" class="menu-icon" 
+		onclick="menutoggle()">
+	</div>
+
+	<div class="container" style="text-align: center;">
+		<img style="height:400px; width: auto;" src="photo/ঋ-Rhi 2.png">
+		<p>
+			ঋ-Rhi তে আমরা হ্যান্ডক্রাফটেড জুয়েলারি সেল করে থাকি। believe in us and have faith too..inshaAllah we'll try our best to serve you.
+			<br>
+			<br>
+			Wooden handmade/painted jewellery are sold in ঋ-Rhi. Also,handpainted cellphone covers are also available.<br>
+			All the products are made with very hard work and love. And you can customize anything you want.
+
+			<br>
+			<br>
+			<br>
+			<br>
+
+		</p>
+		<h2>CONTACT INFO</h2>
+		<p>
+			<i class="fa fa-commenting-o" aria-hidden="true"></i> <a href="https://m.me/Rhi.deshiponno">    m.me/Rhi.deshiponno</a> 
+		</p>
+		<p>
+			<i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:sumaiyaritu9727@gmail.com">sumaiyaritu9727@gmail.com</a> 
+		</p>
+			<br>
+			<br>
+	</div>
+	  
+
+			<!------------------ Footer ----------->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>Download App for Android and Ios mobile phone.</p>
+					<div class="app-logo">
+						<img src="photo/play-store.png">
+						<img src="photo/app-store.png">
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="photo/RHI-logo9.png">
+					<p>ঋ-Rhi is just not our's but <br>it's yours own dream making shop. </p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Offers</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow Us</h3>
+					<ul>
+						<li><a href="https://www.facebook.com/Rhi.deshiponno/"> Facebook</a></li>
+						<li>Twitter</li>
+						<li><a href="https://www.instagram.com/rhi.handmadeornaments/">Instagram</a></li>
+						<li><a href="https://www.youtube.com/channel/UCZQ8nM7XPrZveImq2F1V0tg/featured">Youtube</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			<hr>
+			<p class="copyright">Copiright 2020 - ঋ-Rhi</p>
+		</div>
+	</div>
+
+<!----------js for toggle menu---------->
+		<script >
+			var MenuItems = document.getElementById("MenuItems");
+			MenuItems.style.maxHeight = "0px"
+			function menutoggle(){
+				if(MenuItems.style.maxHeight == "0px")
+					{
+						MenuItems.style.maxHeight = "200px"
+					}
+				else
+					{
+						MenuItems.style.maxHeight = "0px"
+					}
+			}
+		</script>
+</body>
+</html>

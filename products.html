@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ঋ-Rhi | আপনার.. এবং আমার</title>
+	<link rel="stylesheet" href="style.css"> 
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+</head>
+<body>
+
+	<div class="header">
+
+	<div class="container">
+		<div class="navbar">
+		<div class="logo">
+			<a href="index.html"><img src="photo/Rhi-logo2.png" width="125px"></a>
+		</div>
+		<nav>
+			<ul id="MenuItems">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><div class="dropdown">
+					  <button class="dropbtn">Sign in / Sign up</button>
+					  	<div class="dropdown-content">
+ 					    <a href="signin.html">Sign in</a>
+					    <a href="signup.html">Sign up</a>
+					
+					  </div>
+					</div>
+				</li>
+
+			</ul>
+		</nav>
+		<a href="cart.html"><img src="photo/cart.png" width="30px" height="30px"></a>
+		<img src="photo/menu.png" class="menu-icon" 
+		onclick="menutoggle()">
+	</div>
+
+			<div style="display: flex; align-items: center;">
+				<h2 class="title" >All Products</h2>
+				<select style="justify-self:end">
+                        <option>Default Sorting </option>
+                        <option>Sort by Price</option>
+                        <option>Sort Popularity </option>
+                        <option>Sort by sale</option>
+                    </select>
+
+			</div>
+
+				
+				<div class="row">
+					<div class="col-4">
+						<div class="fpi"><img src="photo/fp1.jpg"></div>
+						<h4>ছন্দা 💛</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star-o"></i>
+						</div>
+						<p>tk-480.00/-</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/fp2.jpg"></div>
+						<h4>Key Ring</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star-o"></i>
+							 <i class="fa fa-star-o"></i>
+						</div>
+						<p>tk-80.00/- (each)</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/fp3.jpg"></div>
+						<h4>চন্দ্রা🌸</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+						</div>
+						<p>tk-380.00/-</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/fp4.jpg"></div>
+						<h4>Customize Cover</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star-o"></i>
+						</div>
+						<p>tk-200.00/- (each)</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/LPp1.jpg"></div>
+						<h4>নীলিমা</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star-o"></i>
+						</div>
+						<p>tk-180.00/-</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/LPp2.jpg"></div>
+						<h4>সীর্যমুখী</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star-o"></i>
+							 <i class="fa fa-star-o"></i>
+						</div>
+						<p>tk-220.00/-</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/LPp5.jpg"></div>
+						<h4>ময়ূরাক্ষী</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+						</div>
+						<p>tk-180.00/-</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/LPp6.jpg"></div>
+						<h4>অমর</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star-o"></i>
+						</div>
+						<p>tk-200.00/-</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/LPp7.jpg"></div>
+						<h4>সন্ধ্যা</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star-o"></i>
+						</div>
+						<p>tk-380.00/-</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/LPp10.jpg"></div>
+						<h4>বর্ণিল</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+						</div>
+						<p>tk-480.00/-</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/LPr3.jpg"></div>
+						<h4>প্রজাপতী অরু</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+						</div>
+						<p>tk-80.00/-</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/LPr2.jpg"></div>
+						<h4>পাতার অভয়</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star-o"></i>
+						</div>
+						<p>tk-100.00/-</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/LPr4.jpg"></div>
+						<h4>রঙ্গিলা</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star-o"></i>
+							 <i class="fa fa-star-o"></i>
+						</div>
+						<p>tk-120.00/-</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/LPr5.jpg"></div>
+						<h4>চক্র </h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+						</div>
+						<p>tk-80.00/-</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/LPk1.jpg"></div>
+						<h4>Key Ring story</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star-o"></i>
+						</div>
+						<p>tk-100.00/-</p>
+					</div>
+					<div class="col-4">
+						<div class="fpi"><img src="photo/LPk2.jpg"></div>
+						<h4>Key Ring BatMan</h4>
+						<div class="rating">
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star"></i>
+							 <i class="fa fa-star-o"></i>
+						</div>
+						<p>tk-100.00/-</p>
+					</div>
+				</div>
+			</div>
+			<!------------------ Footer ----------->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>Download App for Android and Ios mobile phone.</p>
+					<div class="app-logo">
+						<img src="photo/play-store.png">
+						<img src="photo/app-store.png">
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="photo/RHI-logo9.png">
+					<p>ঋ-Rhi is just not our's but <br>it's yours own dream making shop. </p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Offers</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow Us</h3>
+					<ul>
+						<li><a href="https://www.facebook.com/Rhi.deshiponno/"> Facebook</a></li>
+						<li>Twitter</li>
+						<li><a href="https://www.instagram.com/rhi.handmadeornaments/">Instagram</a></li>
+						<li><a href="https://www.youtube.com/channel/UCZQ8nM7XPrZveImq2F1V0tg/featured">Youtube</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			<hr>
+			<p class="copyright">Copiright 2020 - ঋ-Rhi</p>
+		</div>
+	</div>
+
+<!----------js for toggle menu---------->
+		<script >
+			var MenuItems = document.getElementById("MenuItems");
+			MenuItems.style.maxHeight = "0px"
+			function menutoggle(){
+				if(MenuItems.style.maxHeight == "0px")
+					{
+						MenuItems.style.maxHeight = "200px"
+					}
+				else
+					{
+						MenuItems.style.maxHeight = "0px"
+					}
+			}
+		</script>
+</body>
+</html>
